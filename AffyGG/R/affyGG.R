@@ -1,14 +1,14 @@
 # Function name: affyGG
 # Author: Rudi Alberts <r.alberts@rug.nl>
 # Maintainer: Gonzalo Vera <g.vera.rodriguez@rug.nl>
+# GIT Maintainer: Danny Arends <d.arends@gmail.com>
 # Version: 1.0.1
 # Date: 1 May. 2007
 
 affyGG <- function( genotypes, batch, nProbes=16, nIndiv=30, n.simulations=100,
                     directory=NULL, celfiles, probelevel=T,
                     probesetName=NULL, overwrite=F, n.Plots=5,
-                    markersPos=NULL, probesPos=NULL, chrOffsets=NULL )
-{
+                    markersPos=NULL, probesPos=NULL, chrOffsets=NULL ){
 
   # 0. Welcome
   cat( "\nPackage: affyGG \nComputational protocols for genetical genomics analyses with Affymetrix arrays. \n\n" )
